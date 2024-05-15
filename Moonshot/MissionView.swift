@@ -27,11 +27,19 @@ struct MissionView: View {
                     }
                 
                 VStack(alignment: .leading) {
+                    CustomDivider()
+                    
                     Text("Mission Highlights")
                         .font(.title.bold())
                         .padding(.bottom, 5)
                     
                     Text(mission.description)
+                    
+                    CustomDivider()
+                    
+                    Text("Crew")
+                        .font(.title.bold())
+                        .padding(.bottom, 5)
                 }
                 .padding(.horizontal)
                 

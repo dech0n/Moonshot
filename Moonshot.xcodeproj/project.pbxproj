@@ -19,6 +19,7 @@
 		B965301E2BF469F500E00915 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B965301D2BF469F500E00915 /* Color-Theme.swift */; };
 		B96530202BF55D0000E00915 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B965301F2BF55D0000E00915 /* MissionView.swift */; };
 		B96530222BF56B8600E00915 /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96530212BF56B8600E00915 /* CustomDivider.swift */; };
+		B96530242BF56D2A00E00915 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96530232BF56D2A00E00915 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		B965301D2BF469F500E00915 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		B965301F2BF55D0000E00915 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		B96530212BF56B8600E00915 /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
+		B96530232BF56D2A00E00915 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				B96530032BF3D62700E00915 /* MoonshotApp.swift */,
 				B96530052BF3D62700E00915 /* ContentView.swift */,
+				B96530232BF56D2A00E00915 /* AstronautView.swift */,
 				B965301F2BF55D0000E00915 /* MissionView.swift */,
 				B96530212BF56B8600E00915 /* CustomDivider.swift */,
 				B96530152BF4439100E00915 /* Astronaut.swift */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B96530222BF56B8600E00915 /* CustomDivider.swift in Sources */,
+				B96530242BF56D2A00E00915 /* AstronautView.swift in Sources */,
 				B96530202BF55D0000E00915 /* MissionView.swift in Sources */,
 				B96530162BF4439100E00915 /* Astronaut.swift in Sources */,
 				B965301E2BF469F500E00915 /* Color-Theme.swift in Sources */,

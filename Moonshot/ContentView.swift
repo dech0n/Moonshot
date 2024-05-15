@@ -22,5 +22,3 @@ struct ContentView: View {
 #Preview {
     ContentView()
 }
-
-// apollo@3x 11, 12, 15

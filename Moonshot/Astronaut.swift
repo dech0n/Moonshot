@@ -5,7 +5,7 @@
 //  Created by Dechon Ryan on 5/14/24.
 //
 
-import SwiftUI
+import Foundation
 
 struct Astronaut: Codable, Identifiable {
     let id: String

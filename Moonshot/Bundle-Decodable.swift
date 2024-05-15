@@ -10,13 +10,14 @@ import Foundation
 extension Bundle {
     func decode<T: Codable>(_ file: String) -> T {
         // <T> means "some type", it's a placeholder for any type; could be anything (e.g. <Type>, <Something>, etc)
+        
         /*
          Decode JSON data
          
          - Parameters:
             - file: String of the file's location within the project
          
-         - Returns: Dictionary of Astronaut data [String: Astronaut]
+         - Returns: Decoded JSON data
          */
         
         guard let url = self.url(forResource: file, withExtension: nil) else {

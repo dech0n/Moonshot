@@ -21,6 +21,7 @@
 		B96530222BF56B8600E00915 /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96530212BF56B8600E00915 /* CustomDivider.swift */; };
 		B96530242BF56D2A00E00915 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96530232BF56D2A00E00915 /* AstronautView.swift */; };
 		B96530262BF571BF00E00915 /* CrewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96530252BF571BF00E00915 /* CrewView.swift */; };
+		B96530282BF5734700E00915 /* MissionTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96530272BF5734700E00915 /* MissionTileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		B96530212BF56B8600E00915 /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
 		B96530232BF56D2A00E00915 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		B96530252BF571BF00E00915 /* CrewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrewView.swift; sourceTree = "<group>"; };
+		B96530272BF5734700E00915 /* MissionTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				B96530032BF3D62700E00915 /* MoonshotApp.swift */,
 				B96530052BF3D62700E00915 /* ContentView.swift */,
+				B96530272BF5734700E00915 /* MissionTileView.swift */,
 				B96530232BF56D2A00E00915 /* AstronautView.swift */,
 				B965301F2BF55D0000E00915 /* MissionView.swift */,
 				B96530252BF571BF00E00915 /* CrewView.swift */,
@@ -173,6 +176,7 @@
 				B96530242BF56D2A00E00915 /* AstronautView.swift in Sources */,
 				B96530202BF55D0000E00915 /* MissionView.swift in Sources */,
 				B96530162BF4439100E00915 /* Astronaut.swift in Sources */,
+				B96530282BF5734700E00915 /* MissionTileView.swift in Sources */,
 				B965301E2BF469F500E00915 /* Color-Theme.swift in Sources */,
 				B96530262BF571BF00E00915 /* CrewView.swift in Sources */,
 				B96530062BF3D62700E00915 /* ContentView.swift in Sources */,

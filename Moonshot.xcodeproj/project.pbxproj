@@ -13,6 +13,7 @@
 		B965300B2BF3D62800E00915 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B965300A2BF3D62800E00915 /* Preview Assets.xcassets */; };
 		B96530132BF43F3100E00915 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = B96530112BF43F3100E00915 /* missions.json */; };
 		B96530142BF43F3100E00915 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = B96530122BF43F3100E00915 /* astronauts.json */; };
+		B96530162BF4439100E00915 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96530152BF4439100E00915 /* Astronaut.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B965300A2BF3D62800E00915 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B96530112BF43F3100E00915 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		B96530122BF43F3100E00915 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		B96530152BF4439100E00915 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				B96530032BF3D62700E00915 /* MoonshotApp.swift */,
 				B96530052BF3D62700E00915 /* ContentView.swift */,
 				B96530122BF43F3100E00915 /* astronauts.json */,
+				B96530152BF4439100E00915 /* Astronaut.swift */,
 				B96530112BF43F3100E00915 /* missions.json */,
 				B96530072BF3D62800E00915 /* Assets.xcassets */,
 				B96530092BF3D62800E00915 /* Preview Content */,
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96530162BF4439100E00915 /* Astronaut.swift in Sources */,
 				B96530062BF3D62700E00915 /* ContentView.swift in Sources */,
 				B96530042BF3D62700E00915 /* MoonshotApp.swift in Sources */,
 			);

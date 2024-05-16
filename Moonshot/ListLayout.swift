@@ -14,8 +14,18 @@ struct ListLayout: View {
     var body: some View {
         List(missions) { mission in
             MissionTileView(mission: mission, astronauts: astronauts)
+                .listRowBackground(Color.darkBackground)
         }
         .padding([.horizontal, .bottom])
         .scrollContentBackground(.hidden)
     }
+}
+
+
+#Preview {
+    let missions: [Mission] = Bundle.main.decode("missions.json")
+    let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
+    
+    return ListLayout(missions: missions, astronauts: astronauts)
+        .preferredColorScheme(.dark)
 }

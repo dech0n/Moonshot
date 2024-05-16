@@ -16,8 +16,8 @@ struct ListLayout: View {
             MissionTileView(mission: mission, astronauts: astronauts)
                 .listRowBackground(Color.darkBackground)
         }
-        .padding([.horizontal, .bottom])
         .scrollContentBackground(.hidden)
+        .listStyle(.plain)
     }
 }
 

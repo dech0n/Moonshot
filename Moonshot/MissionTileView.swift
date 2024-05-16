@@ -44,3 +44,10 @@ struct MissionTileView: View {
     }
 }
 
+#Preview {
+    let missions: [Mission] = Bundle.main.decode("missions.json")
+    let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
+    
+    return MissionTileView(mission: missions[1], astronauts: astronauts)
+        .preferredColorScheme(.dark)
+}

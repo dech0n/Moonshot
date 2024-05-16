@@ -24,12 +24,12 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Moonshot")
+            .background(.darkBackground)
+            .preferredColorScheme(.dark)
             .toolbar {
                 Toggle("List  •  Grid", isOn: $showGrid)
                     .toggleStyle(.switch)
             }
-            .background(.darkBackground)
-            .preferredColorScheme(.dark)
         }
     }
 }

@@ -16,5 +16,6 @@ struct ListLayout: View {
             MissionTileView(mission: mission, astronauts: astronauts)
         }
         .padding([.horizontal, .bottom])
+        .scrollContentBackground(.hidden)
     }
 }
